@@ -1,0 +1,86 @@
+keep_going = True
+while keep_going:
+    user_choice = input("Rock, Paper, Scissors ")
+    if user_choice == 'Rock':
+        print("Computer chooses paper. You lose")
+    elif user_choice == 'Paper':
+        print("Computer chooses scissors. You lose")
+    elif user_choice == 'Scissors':
+        print("Computer chooses rock. You lose")
+    else:
+        print("Computer picks knife. You lose.")
+    print ("Time to play again!")
+    
+    
+    keep_going = True
+my_list = []
+while keep_going:
+    number = input("Enter a number")
+    if number == 'stop' or number == 'Stop':
+        keep_going = False
+    else:
+        number = int(number)
+        my_list.append(number)
+average = sum(my_list) / len (my_list)
+print(average)
+
+
+keep_going = True
+while keep_going:
+    word = input("Enter a word")
+if word == 'stop' or word == 'Stop':
+    keep_going = false
+
+else:
+    for letter in word:
+        print(letter)
+        
+        count = 0
+number = input("Enter a number")
+number = int(number)
+my_1= [1,2,3,4,5,6,7,8,9,12]
+for element in my_1:
+        if number > element:
+            count = count + 1
+print(count)
+
+b = [1,2,3,4,5]
+for a in b
+    if a % 2 == 0:
+        print(a)
+        pass
+else:
+    print(a)
+
+
+    my list = []
+    for i in range (0,10):
+        my_list.append(i)
+        
+        
+        list = [1,2,3]
+for element in list:
+    print(element)
+    
+    
+    number = input("Enter a number")
+number = int (number)
+if number % 2 == 0:
+    print("Number is even")
+
+else:
+    print("The number is odd")
+    
+    
+    number = input ("What is your number?")
+number = int(number)
+if number > 10:
+    print("Your number is greater than 10")
+elif number == 10:
+    print("Your number is equal to 10")
+else:
+    print("Your number is less than 10")
+    
+    
+    x = 10
+print(x)
